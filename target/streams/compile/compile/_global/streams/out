@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Programmerings saker\scalaDB\doobie\src\main\scala\Main.scala:11:3: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m  def run(args: List[String]): IO[ExitCode] =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

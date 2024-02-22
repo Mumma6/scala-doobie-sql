@@ -1,0 +1,4 @@
+[debug] [doobie-test] Classpath dependencies List()
+[debug] [doobie-test] Dependencies from configurations List(doobie)
+[debug] Bloop wrote the configuration of project 'doobie-test' to 'D:\Programmerings saker\scalaDB\doobie\.bloop\doobie-test.json'
+[success] Generated .bloop\doobie-test.json

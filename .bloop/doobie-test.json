@@ -1,0 +1,637 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "doobie-test",
+        "directory": "D:\\Programmerings saker\\scalaDB\\doobie",
+        "workspaceDir": "D:\\Programmerings saker\\scalaDB\\doobie",
+        "sources": [
+            "D:\\Programmerings saker\\scalaDB\\doobie\\src\\test\\scala",
+            "D:\\Programmerings saker\\scalaDB\\doobie\\src\\test\\scala-2.13",
+            "D:\\Programmerings saker\\scalaDB\\doobie\\src\\test\\scala-2",
+            "D:\\Programmerings saker\\scalaDB\\doobie\\src\\test\\java",
+            "D:\\Programmerings saker\\scalaDB\\doobie\\target\\scala-2.13\\src_managed\\test"
+        ],
+        "dependencies": [
+            "doobie"
+        ],
+        "classpath": [
+            "D:\\Programmerings saker\\scalaDB\\doobie\\.bloop\\doobie\\scala-2.13\\classes",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-core_2.13\\1.0.0-RC1\\doobie-core_2.13-1.0.0-RC1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-postgres_2.13\\1.0.0-RC1\\doobie-postgres_2.13-1.0.0-RC1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-hikari_2.13\\1.0.0-RC1\\doobie-hikari_2.13-1.0.0-RC1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\estatico\\newtype_2.13\\0.4.4\\newtype_2.13-0.4.4.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-free_2.13\\1.0.0-RC1\\doobie-free_2.13-1.0.0-RC1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.13\\2.4.4\\scala-collection-compat_2.13-2.4.4.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.13\\2.3.7\\shapeless_2.13-2.3.7.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\typename_2.13\\1.0.0\\typename_2.13-1.0.0.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\co\\fs2\\fs2-io_2.13\\3.0.3\\fs2-io_2.13-3.0.3.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.23\\postgresql-42.2.23.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\zaxxer\\HikariCP\\4.0.3\\HikariCP-4.0.3.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.32\\slf4j-api-1.7.32.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\co\\fs2\\fs2-core_2.13\\3.0.3\\fs2-core_2.13-3.0.3.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.6.1\\cats-core_2.13-2.6.1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-free_2.13\\2.6.1\\cats-free_2.13-2.6.1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_2.13\\3.1.1\\cats-effect_2.13-3.1.1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\comcast\\ip4s-core_2.13\\3.0.3\\ip4s-core_2.13-3.0.3.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.5.0\\checker-qual-3.5.0.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scodec\\scodec-bits_2.13\\1.1.27\\scodec-bits_2.13-1.1.27.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.6.1\\cats-kernel_2.13-2.6.1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\simulacrum-scalafix-annotations_2.13\\0.5.4\\simulacrum-scalafix-annotations_2.13-0.5.4.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-kernel_2.13\\3.1.1\\cats-effect-kernel_2.13-3.1.1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-std_2.13\\3.1.1\\cats-effect-std_2.13-3.1.1.jar",
+            "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\literally_2.13\\1.0.2\\literally_2.13-1.0.2.jar"
+        ],
+        "out": "D:\\Programmerings saker\\scalaDB\\doobie\\.bloop\\doobie",
+        "classesDir": "D:\\Programmerings saker\\scalaDB\\doobie\\.bloop\\doobie\\scala-2.13\\test-classes",
+        "resources": [
+            "D:\\Programmerings saker\\scalaDB\\doobie\\src\\test\\resources",
+            "D:\\Programmerings saker\\scalaDB\\doobie\\target\\scala-2.13\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+                "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.12\\scala-compiler-2.13.12.jar",
+                "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar",
+                "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.22.0\\jline-3.22.0.jar",
+                "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.13.0\\jna-5.13.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Users\\marti\\.jabba\\jdk\\adopt@1.11.0-11",
+                "options": [
+                    "-Duser.dir=D:\\Programmerings saker\\scalaDB\\doobie"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "2.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tpolecat",
+                    "name": "doobie-core_2.13",
+                    "version": "1.0.0-RC1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "doobie-core_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-core_2.13\\1.0.0-RC1\\doobie-core_2.13-1.0.0-RC1.jar"
+                        },
+                        {
+                            "name": "doobie-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-core_2.13\\1.0.0-RC1\\doobie-core_2.13-1.0.0-RC1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tpolecat",
+                    "name": "doobie-postgres_2.13",
+                    "version": "1.0.0-RC1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "doobie-postgres_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-postgres_2.13\\1.0.0-RC1\\doobie-postgres_2.13-1.0.0-RC1.jar"
+                        },
+                        {
+                            "name": "doobie-postgres_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-postgres_2.13\\1.0.0-RC1\\doobie-postgres_2.13-1.0.0-RC1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tpolecat",
+                    "name": "doobie-hikari_2.13",
+                    "version": "1.0.0-RC1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "doobie-hikari_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-hikari_2.13\\1.0.0-RC1\\doobie-hikari_2.13-1.0.0-RC1.jar"
+                        },
+                        {
+                            "name": "doobie-hikari_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-hikari_2.13\\1.0.0-RC1\\doobie-hikari_2.13-1.0.0-RC1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.estatico",
+                    "name": "newtype_2.13",
+                    "version": "0.4.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "newtype_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\estatico\\newtype_2.13\\0.4.4\\newtype_2.13-0.4.4.jar"
+                        },
+                        {
+                            "name": "newtype_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\estatico\\newtype_2.13\\0.4.4\\newtype_2.13-0.4.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tpolecat",
+                    "name": "doobie-free_2.13",
+                    "version": "1.0.0-RC1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "doobie-free_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-free_2.13\\1.0.0-RC1\\doobie-free_2.13-1.0.0-RC1.jar"
+                        },
+                        {
+                            "name": "doobie-free_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\doobie-free_2.13\\1.0.0-RC1\\doobie-free_2.13-1.0.0-RC1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.4.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.13\\2.4.4\\scala-collection-compat_2.13-2.4.4.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.13\\2.4.4\\scala-collection-compat_2.13-2.4.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.chuusai",
+                    "name": "shapeless_2.13",
+                    "version": "2.3.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shapeless_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.13\\2.3.7\\shapeless_2.13-2.3.7.jar"
+                        },
+                        {
+                            "name": "shapeless_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.13\\2.3.7\\shapeless_2.13-2.3.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tpolecat",
+                    "name": "typename_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "typename_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\typename_2.13\\1.0.0\\typename_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "typename_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tpolecat\\typename_2.13\\1.0.0\\typename_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "co.fs2",
+                    "name": "fs2-io_2.13",
+                    "version": "3.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fs2-io_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\co\\fs2\\fs2-io_2.13\\3.0.3\\fs2-io_2.13-3.0.3.jar"
+                        },
+                        {
+                            "name": "fs2-io_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\co\\fs2\\fs2-io_2.13\\3.0.3\\fs2-io_2.13-3.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.2.23",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.23\\postgresql-42.2.23.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.2.23\\postgresql-42.2.23-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "HikariCP",
+                    "version": "4.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HikariCP",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\zaxxer\\HikariCP\\4.0.3\\HikariCP-4.0.3.jar"
+                        },
+                        {
+                            "name": "HikariCP",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\zaxxer\\HikariCP\\4.0.3\\HikariCP-4.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.32",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.32\\slf4j-api-1.7.32.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.32\\slf4j-api-1.7.32-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "co.fs2",
+                    "name": "fs2-core_2.13",
+                    "version": "3.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fs2-core_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\co\\fs2\\fs2-core_2.13\\3.0.3\\fs2-core_2.13-3.0.3.jar"
+                        },
+                        {
+                            "name": "fs2-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\co\\fs2\\fs2-core_2.13\\3.0.3\\fs2-core_2.13-3.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.6.1\\cats-core_2.13-2.6.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.6.1\\cats-core_2.13-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-free_2.13",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-free_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-free_2.13\\2.6.1\\cats-free_2.13-2.6.1.jar"
+                        },
+                        {
+                            "name": "cats-free_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-free_2.13\\2.6.1\\cats-free_2.13-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect_2.13",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_2.13\\3.1.1\\cats-effect_2.13-3.1.1.jar"
+                        },
+                        {
+                            "name": "cats-effect_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect_2.13\\3.1.1\\cats-effect_2.13-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.comcast",
+                    "name": "ip4s-core_2.13",
+                    "version": "3.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ip4s-core_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\comcast\\ip4s-core_2.13\\3.0.3\\ip4s-core_2.13-3.0.3.jar"
+                        },
+                        {
+                            "name": "ip4s-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\comcast\\ip4s-core_2.13\\3.0.3\\ip4s-core_2.13-3.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.5.0\\checker-qual-3.5.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.5.0\\checker-qual-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scodec",
+                    "name": "scodec-bits_2.13",
+                    "version": "1.1.27",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scodec-bits_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scodec\\scodec-bits_2.13\\1.1.27\\scodec-bits_2.13-1.1.27.jar"
+                        },
+                        {
+                            "name": "scodec-bits_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scodec\\scodec-bits_2.13\\1.1.27\\scodec-bits_2.13-1.1.27-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.6.1\\cats-kernel_2.13-2.6.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.6.1\\cats-kernel_2.13-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "simulacrum-scalafix-annotations_2.13",
+                    "version": "0.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\simulacrum-scalafix-annotations_2.13\\0.5.4\\simulacrum-scalafix-annotations_2.13-0.5.4.jar"
+                        },
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\simulacrum-scalafix-annotations_2.13\\0.5.4\\simulacrum-scalafix-annotations_2.13-0.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-kernel_2.13",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-kernel_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-kernel_2.13\\3.1.1\\cats-effect-kernel_2.13-3.1.1.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-kernel_2.13\\3.1.1\\cats-effect-kernel_2.13-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-std_2.13",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-std_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-std_2.13\\3.1.1\\cats-effect-std_2.13-3.1.1.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-effect-std_2.13\\3.1.1\\cats-effect-std_2.13-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "literally_2.13",
+                    "version": "1.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "literally_2.13",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\literally_2.13\\1.0.2\\literally_2.13-1.0.2.jar"
+                        },
+                        {
+                            "name": "literally_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\literally_2.13\\1.0.2\\literally_2.13-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\marti\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

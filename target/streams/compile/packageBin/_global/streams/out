@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Actor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$Actor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Actor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$Actor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$anon$generic$macro$12$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$anon$generic$macro$12$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$anon$generic$macro$12$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$anon$generic$macro$12$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$anon$generic$macro$18$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$anon$generic$macro$18$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Debugger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$Debugger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Movie$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$Movie$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Movie.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main$Movie.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Programmerings saker\scalaDB\doobie\target\scala-2.13\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
